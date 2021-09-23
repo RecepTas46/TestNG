@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit1">
+    <test name="test1">
+        <parameter name="mesaj" value="Iste biz geliyoruz yeni testerler"></parameter>
+        <classes> <!--calisacak classlarin yazildigi yer-->
+            <class name="Gun05._02_contactUs"></class>
+        </classes>
+    </test>
+</suite>
